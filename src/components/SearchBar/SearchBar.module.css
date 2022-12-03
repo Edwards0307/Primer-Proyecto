@@ -1,0 +1,29 @@
+.container {
+  display: flex;
+  margin: auto;
+  width: 50%;
+  justify-content: space-around;
+}
+
+.container input {
+  border-radius: 5px;
+  padding: 27px 83px 27px 83px;
+}
+
+.container button {
+  border: 5.4px solid #3c3b94;
+  border-radius: 16.2px;
+  padding: 27px 83px 27px 83px;
+  margin: 0;
+  background-color: #3c3b94;
+  color: #7dffda;
+  font-weight: 500;
+  opacity: 1;
+  transition: 1s;
+}
+.container button:hover {
+  cursor: pointer;
+  background-color: #222153;
+  opacity: 1;
+  transition: 1s;
+}

@@ -1,0 +1,36 @@
+.container {
+  border: 1px solid rgb(66, 60, 60); /* linea de borde */
+  background-color: rgb(158, 154, 150); /* Color de fondo */
+  border-radius: 10px; /* Bordes redondeados */
+  width: 180px; /* Ancho */
+  padding: 10px;
+  box-shadow: 0, 0, 50px black; /* Sombra */
+}
+
+.name {
+  font-weight: 600;
+}
+
+.info {
+  display: flex;
+  justify-content: space-around;
+}
+
+.img {
+  width: 95%;
+  border: 1px solid rgb(66, 60, 60); /* linea de borde */
+  border-radius: 10px; /* Bordes redondeados */
+}
+
+.buttonContainer {
+  display: flex; /* Ponerlo a un costado y asi poder usar flex-end */
+  justify-content: flex-end; /* flex-end; Ponerlo al final en este caso a la derecha */
+}
+
+.buttonContainer button {
+  margin: 3px, 3px, 0, 0; /* Se le da un margen al boton y se empieza desde arriba */
+  border: 1px solid rgb(66, 60, 60); /* linea de borde */
+  background-color: rgb(216, 69, 69);
+  color: antiquewhite;
+  border-radius: 4px; /* Bordes redondeados */
+}
